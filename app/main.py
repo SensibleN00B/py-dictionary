@@ -113,7 +113,6 @@ class Dictionary:
     def clear(self) -> None:
         self.buckets = [None] * self.capacity
         self.size = 0
-        self.capacity = 8
 
     def keys(self) -> list[Hashable]:
         return list(self)
